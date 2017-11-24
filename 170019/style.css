@@ -1,0 +1,80 @@
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #27292e;
+	font-family: "Open Sans";
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 36px;
+	color: #d4d4d5;
+	line-height: 0;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 18px;
+	color: #d4d4d5;
+	line-height: 1.1;
+}
+
+.bg-head {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	height: 512px;
+	display: block;
+	position: absolute;
+	background-size: cover;
+	background-color: #242832;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('https://rscard.px-lab.com/startuper/wp-content/uploads/sites/2/2016/02/rs-cover-2-2-1-1.jpg');
+}
+
+.bg-head::before {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(44, 51, 64, 0.8);
+}
+.presentation {
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 50px 40px;
+	width: 46%;
+	position: relative;
+	background-color: #35363b;
+	z-index: 5;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.image {
+	width: 40%;
+	margin: 0;
+	float: left;
+}
+
+.info {
+	width: 60%;
+	margin: 0;
+	float: left;
+}
+
+.info-head {
+	border-bottom: 0.1px solid #47494c;
+	padding-bottom: 10px;
+}
