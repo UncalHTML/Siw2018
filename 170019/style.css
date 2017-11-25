@@ -6,20 +6,28 @@ body {
 	width: 100%;
 	background-color: #27292e;
 	font-family: "Open Sans";
+	color: #d4d4d5;
 }
 
 h1 {
 	font-weight: 700;
 	font-size: 36px;
-	color: #d4d4d5;
 	line-height: 0;
 }
 
 h2 {
 	font-weight: 400;
 	font-size: 18px;
-	color: #d4d4d5;
 	line-height: 1.1;
+}
+
+a {
+	text-decoration: none;
+	color: #84898e;
+}
+
+a:hover {
+	color: #d4d4d5;
 }
 
 .bg-head {
@@ -34,7 +42,7 @@ h2 {
 	background-color: #242832;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url('https://rscard.px-lab.com/startuper/wp-content/uploads/sites/2/2016/02/rs-cover-2-2-1-1.jpg');
+	background-image: url('https://static.pexels.com/photos/330771/pexels-photo-330771.jpeg');
 }
 
 .bg-head::before {
@@ -48,7 +56,7 @@ h2 {
 }
 .presentation {
 	margin: 0 auto;
-	margin-top: 150px;
+	margin-top: 15%;
 	padding: 50px 40px;
 	width: 46%;
 	position: relative;
@@ -68,6 +76,10 @@ h2 {
 	float: left;
 }
 
+.image img {
+	align-content: center;
+}
+
 .info {
 	width: 60%;
 	margin: 0;
@@ -77,4 +89,34 @@ h2 {
 .info-head {
 	border-bottom: 0.1px solid #47494c;
 	padding-bottom: 10px;
+}
+
+.info-body table {
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.info-body th {
+	width: 20%;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 2.5;
+}
+
+.info-body td {
+	width: 80%;
+	font-size: 15px;
+	font-weight: 400;
+	color: #84898e;
+}
+
+.testo {
+	margin: 0 auto;
+	margin-top: 38.80%;
+	padding: 0;
+	width: 46%;
+	position: relative;
+	z-index: 5;
 }
