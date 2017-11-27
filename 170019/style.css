@@ -1,0 +1,122 @@
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #27292e;
+	font-family: "Open Sans";
+	color: #d4d4d5;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 0;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.1;
+}
+
+a {
+	text-decoration: none;
+	color: #84898e;
+}
+
+a:hover {
+	color: #d4d4d5;
+}
+
+.bg-head {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	height: 512px;
+	display: block;
+	position: absolute;
+	background-size: cover;
+	background-color: #242832;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('https://static.pexels.com/photos/330771/pexels-photo-330771.jpeg');
+}
+
+.bg-head::before {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(44, 51, 64, 0.8);
+}
+.presentation {
+	margin: 0 auto;
+	margin-top: 15%;
+	padding: 50px 40px;
+	width: 46%;
+	position: relative;
+	background-color: #35363b;
+	z-index: 5;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.image {
+	width: 40%;
+	margin: 0;
+	float: left;
+}
+
+.image img {
+	align-content: center;
+}
+
+.info {
+	width: 60%;
+	margin: 0;
+	float: left;
+}
+
+.info-head {
+	border-bottom: 0.1px solid #47494c;
+	padding-bottom: 10px;
+}
+
+.info-body table {
+	width: 100%;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.info-body th {
+	width: 20%;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 2.5;
+}
+
+.info-body td {
+	width: 80%;
+	font-size: 15px;
+	font-weight: 400;
+	color: #84898e;
+}
+
+.testo {
+	margin: 0 auto;
+	margin-top: 38.80%;
+	padding: 0;
+	width: 46%;
+	position: relative;
+	z-index: 5;
+}
