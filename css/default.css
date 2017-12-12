@@ -1,0 +1,91 @@
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #EAEEED;
+	min-height: 100%;
+}
+
+header {
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 1.5em 0;
+	background-color: #BE0417;
+	color: #FFF;
+	margin: 0 auto;
+}
+
+header h1, h5 {
+	line-height: 1;
+	text-align: left;
+}
+
+header img{
+	width: 100%;
+	background-color: #FFF;
+	border-radius: 2px;
+	float: left;
+}
+
+nav {
+	left: 0;
+	right: 0;
+	padding: 0.5em 0;
+	background-color: #BE0417;
+	color: #FFF;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+}
+
+nav a {
+	color: #FFF;
+}
+
+nav a:hover {
+	background-color: #EAEEED;
+	color: #BE0417;
+}
+
+.sectionStand {
+	margin-top: 20px;
+	background-color: #FFF;
+	padding: 1em 0;
+}
+
+.indexHeader {
+	text-align: center;
+}
+
+.indexText {
+	text-align: justify;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #FFF;
+	padding: 0.4em 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.iscrizione h2, .iscrizione h4{
+	text-align: center;
+}
+
+table th {cursor: pointer;}
+
+.calcoloISEE {
+	text-align: center;
+	display: none;
+}
+
+.calcoloISEE table > tbody > tr > th, .calcoloISEE table > tbody > tr > td {
+	border: none;
+	cursor: auto;
+}

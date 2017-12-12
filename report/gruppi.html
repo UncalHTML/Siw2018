@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>Gruppi: Nominativi</title>
+	<link rel="shortcut icon" href="../images/favicon.ico" />
+	<!-- Style include -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="../css/default.css" />
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="col-md-4">
+				<a href="../index.html"><img src="../images/logo.png" alt="Logo Unical" /></a>
+			</div>
+			<div class="col-md-8">
+				<h1>Portale Segreteria Studenti</h1>
+				<h5>Portale per la gestione degli studenti afferenti a qualche corso di laurea</h5>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</header>
+
+	<nav>
+		<div class="container">
+			<div class="dropdown">
+				<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Studenti</a>
+				<ul class="dropdown-menu">
+	    			<li><a href="../report/studenti.html">Soli nominativi</a></li>
+					<li><a href="../report/studentiNominativiIndirizzi.html">Nominativi e Indirizzi</a></li>
+					<li><a href="../report/studentiInfoComplete.html">Informazioni complete</a></li>
+					<li><a href="../iscriviStudente.html">Iscrivi uno studente</a></li>
+					<li><a href="../servizi/isee.html">Calcola ISEE</a></li>
+        		</ul>
+			</div>
+			<div class="dropdown">
+				<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Gruppi</a>
+				<ul class="dropdown-menu">
+					<li><a href="../report/gruppi.html">Soli nominativi</a></li>
+					<li><a href="../report/studentiPerGruppo.html">Studenti per Gruppo</a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Indirizzi</a>
+				<ul class="dropdown-menu">
+					<li><a href="../report/indirizzi.html">Soli nominativi</a></li>
+					<li><a href="../report/studentiPerIndirizzo.html">Studenti per Indirizzo</a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Corsi</a>
+				<ul class="dropdown-menu">
+					<li><a href="../report/corsi.html">Soli nominativi</a></li>
+					<li><a href="../report/corsiECorsiDiLaurea.html">Nominativi e Corsi di Laurea</a></li>
+					<li><a href="../report/corsiConStudentiIscritti.html">Corsi e Studenti iscritti</a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Corsi di Laurea</a>
+				<ul class="dropdown-menu">
+					<li><a href="../report/corsiDiLaurea.html">Nominativi e Dipartimento</a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<a class="btn dropdown-toggle" href="#" data-toggle="dropdown">Dipartimenti</a>
+				<ul class="dropdown-menu">
+					<li><a href="../report/dipartimenti.html">Nominativi</a></li>
+					<li><a href="../report/dipartimentiECorsiDiLaurea.html">Corsi di Laurea</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section>
+		<div class="container">
+			<div class="col-md-12 sectionStand iscrizione">
+				<h2>Elenco Gruppi</h2>
+				<h4>Portale per la gestione degli studenti afferenti a qualche corso di laurea</h4>
+				<br><br>
+				<div class="col-md-12">
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th>Codice</th>
+								<th>Nome</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Gruppo 1</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Gruppo 2</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<span>Sito web creato da Fabio Sperone (mat. 170019) e Antonino Scarpelli (mat. 171509). Per info contattateci <a href="mailto:info@fabiosperone.it">info@fabiosperone.it</a> o <a href="mailto:n7scarpi@gmail.com">n7scarpi@gmail.com</a></span>
+	</footer>
+
+	<!-- Javascript include -->
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery.tablesorter.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".table").tablesorter();
+		});
+	</script>
+</body>
+</html>
